@@ -1,8 +1,8 @@
-## Spring Boot 3.0 Security with JWT Implementation
+# Spring Boot 3.0 Security with JWT Implementation
 
 This project demonstrates the implementation of security using Spring Boot 3.0 and JSON Web Tokens (JWT). It includes the following features:
 
-# Features
+## Features
 
 - User registration and login with JWT authentication
 - Password encryption using BCrypt
@@ -11,7 +11,7 @@ This project demonstrates the implementation of security using Spring Boot 3.0 a
 - Logout mechanism
 - Refresh token
 
-# Technologies
+## Technologies
 
 - Spring Boot 3.0
 - Spring Security
@@ -19,7 +19,7 @@ This project demonstrates the implementation of security using Spring Boot 3.0 a
 - BCrypt
 - Maven
 
-# Getting Started
+## Getting Started
 
 To get started with this project, you will need to have the following installed on your local machine:
 
@@ -32,6 +32,6 @@ To build and run the project, follow these steps:
 - Build the project: mvn clean install
 - Run the project: mvn spring-boot:run
 
-# System Design
+## System Design
 
 ![System Design](/design.png)
