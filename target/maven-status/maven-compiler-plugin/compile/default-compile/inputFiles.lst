@@ -1,0 +1,14 @@
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/SecurityApplication.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/auth/AuthenticationController.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/auth/AuthenticationRequest.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/auth/AuthenticationResponse.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/auth/AuthenticationService.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/auth/RegisterRequest.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/config/ApplicationConfig.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/config/JwtAuthenticationFilter.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/config/JwtService.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/config/SecurityConfiguration.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/demo/DemoController.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/user/Role.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/user/User.java
+/home/robert/Projects/spring-security/src/main/java/com/robertjones/security/user/UserRepository.java

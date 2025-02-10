@@ -35,3 +35,18 @@ To build and run the project, follow these steps:
 ## System Design
 
 ![System Design](/design.png)
+
+
+## Testing the Demo
+
+1. GET http://localhost:8080/api/v1/demo-controller
+    - Expected: 403 Forbidden
+2. POST http://localhost:8080/api/v1/auth/authenticate
+    - { email, password }
+    - Expected: 403 Forbidden
+3. POST http://localhost:8080/api/v1/auth/register
+    - { firstname, lastname, email, password }
+    - Expected: 200 OK w/ JWT Token
+4. GET http://localhost:8080/api/v1/demo-controller
+    - Authorization Bearer Token: <JWT Token from Step #3>
+    - Expected: 200 OK "Hello from secured endpoint"
